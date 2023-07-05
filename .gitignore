@@ -51,12 +51,12 @@ replay_pid*
 /bin/platform
 /bin/modules
 /bin/custom/ext-deprecated
-!bin/custom/skytech 
 /bin/custom/**/javadoc/*.jar
 /bin/custom/**/sources/*.jar
 /bin/custom/**/WEB-INF/doc/*.jar
 /bin/custom/**/*_bof.jar
 /bin/custom/ext-deprecated/
+!bin/custom/skytech/**
 
 /gitsettings.xml
 /velocity.log
