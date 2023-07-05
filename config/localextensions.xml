@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hybrisconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resources/schemas/extensions.xsd">
+	<extensions>
+		<!--
+				All extensions located in ${HYBRIS_BIN_DIR}/platform/ext are automatically loaded.
+				More information about how to configure available extensions can be found here : https://wiki.hybris.com/x/nZVzC
+		-->
+
+		<path dir="${HYBRIS_BIN_DIR}" />
+
+
+		<!-- modules/platform -->
+		<extension name="skytechcore" />
+		<extension name="skytechbackoffice" />
+		<extension name="skytechfacades" />
+		<extension name="skytechfulfilmentprocess" />
+		<extension name="skytechinitialdata" />
+		<extension name="skytechstorefront" />
+		<extension name="skytechtest" />
+		<extension name="skytechcommercewebservices" />
+		
+
+
+
+
+				<!--
+				<extension name='backofficesolrsearch' />
+        <extension name='solrfacetsearchbackoffice' />
+        <extension name='solrserver' />
+				  <extension name='solrfacetsearch' />
+					-->
+					 <extension name="solrserver" />
+
+					<!--
+        <extension name="voucher" />
+        <extension name="promotionenginebackoffice" />
+        <extension name="droolsruleengineservices" />
+        <extension name="promotionenginesamplesaddon" />
+        <extension name="rulebuilderbackoffice" />
+        <extension name="ruleenginebackoffice" />
+        <extension name="promotionengineservices" />
+        <extension name="ruleengineservices" />
+        <extension name="ruledefinitions" />
+				<extension name="personalizationpromotionsbackoffice"/>
+				<extension name="assistedservicepromotionaddon"/>
+				<extension name="personalizationpromotionssmartedit"/>
+				<extension name="personalizationpromotionssampledataaddon"/>
+				<extension name="personalizationpromotionsweb"/>
+
+
+        <extension name="wishlist" />
+        <extension name="captchaaddon" />
+        <extension name="addonsupport" />
+
+
+				<extension name='adaptivesearch'/>
+        <extension name='adaptivesearchwebservices'/>
+        <extension name='adaptivesearchfacades'/>
+        <extension name='adaptivesearchbackoffice'/>
+        <extension name='adaptivesearchsolr'/>
+
+				-->
+
+
+
+	</extensions>
+</hybrisconfig>
